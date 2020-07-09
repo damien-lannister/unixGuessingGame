@@ -3,7 +3,7 @@
 echo "[Welcome to Guessing game v0.1]"
 
 function ask {
-	echo "Please enter the number of files in the current directory:"
+	echo "Please enter the number of files in the directory:"
 	read guess
     files=$(ls -1 | wc -l)
 }
